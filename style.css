@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: #111;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toggler {
+    position: relative;
+    cursor: pointer;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.ham {
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    background-color:#e6b100;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.ham1Click {
+    transform: rotate(45deg) translate(8px, 6px);
+    -webkit-transform: rotate(45deg) translate(8px, 6px);
+    -moz-transform: rotate(45deg) translate(8px, 6px);
+    -ms-transform: rotate(45deg) translate(8px, 6px);
+    -o-transform: rotate(45deg) translate(8px, 6px);
+}
+
+.ham2Click {
+    opacity: 0;
+}
+
+.ham3Click {
+    transform: rotate(-45deg) translate(8px, -6px);
+    -webkit-transform: rotate(-45deg) translate(8px, -6px);
+    -moz-transform: rotate(-45deg) translate(8px, -6px);
+    -ms-transform: rotate(-45deg) translate(8px, -6px);
+    -o-transform: rotate(-45deg) translate(8px, -6px);
+}
+
+.toggler1Click {
+    transform: rotate(180deg) translate(-4px, 4px);
+    -webkit-transform: rotate(180deg) translate(-4px, 4px);
+    -moz-transform: rotate(180deg) translate(-4px, 4px);
+    -ms-transform: rotate(180deg) translate(-4px, 4px);
+    -o-transform: rotate(180deg) translate(-4px, 4px);
+}
+
+.ham7Click {
+    transform: rotate(45deg) scaleX(0.7) translate(13px, -4px);
+    -webkit-transform: rotate(45deg) scaleX(0.7) translate(13px, -4px);
+    -moz-transform: rotate(45deg) scaleX(0.7) translate(13px, -4px);
+    -ms-transform: rotate(45deg) scaleX(0.7) translate(13px, -4px);
+    -o-transform: rotate(45deg) scaleX(0.7) translate(13px, -4px);
+}
+
+.ham9Click {
+    transform: rotate(-45deg) scaleX(0.7) translate(13px, 4px);
+    -webkit-transform: rotate(-45deg) scaleX(0.7) translate(13px, 4px);
+    -moz-transform: rotate(-45deg) scaleX(0.7) translate(13px, 4px);
+    -ms-transform: rotate(-45deg) scaleX(0.7) translate(13px, 4px);
+    -o-transform: rotate(-45deg) scaleX(0.7) translate(13px, 4px);
+}
+
+.toggler3Click {
+    transform: rotate(180deg) translate(-4px, 4px);
+    -webkit-transform: rotate(180deg) translate(-4px, 4px);
+    -moz-transform: rotate(180deg) translate(-4px, 4px);
+    -ms-transform: rotate(180deg) translate(-4px, 4px);
+    -o-transform: rotate(180deg) translate(-4px, 4px);
+}
+
+.toggler4Click {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+}
