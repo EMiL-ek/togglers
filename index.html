@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title> Togglerki </title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="toggler toggler1"> 
+            <div class="ham ham1"></div>
+            <div class="ham ham2"></div>
+            <div class="ham ham3"></div>
+        </div>
+        <div class="toggler toggler2"> 
+            <div class="ham ham4"></div>
+            <div class="ham ham5"></div>
+            <div class="ham ham6"></div>
+        </div>
+        <div class="toggler toggler3"> 
+            <div class="ham ham7"></div>
+            <div class="ham ham8"></div>
+            <div class="ham ham9"></div>
+        </div>
+        <div class="toggler toggler4"> 
+            <div class="ham ham10"></div>
+            <div class="ham ham11"></div>
+            <div class="ham ham12"></div>
+        </div>
+    </div>
+
+    <script>
+            const button1 = document.querySelector('.toggler1');
+            button1.addEventListener('click', function () {
+                document.querySelector('.ham1').classList.toggle('ham1Click');
+                document.querySelector('.ham2').classList.toggle('ham2Click');
+                document.querySelector('.ham3').classList.toggle('ham3Click');
+                document.querySelector('.toggler1').classList.toggle('toggler1Click');
+            });
+            const button2 = document.querySelector('.toggler2');
+            button2.addEventListener('click', function () {
+                document.querySelector('.ham4').classList.toggle('ham1Click');
+                document.querySelector('.ham5').classList.toggle('ham2Click');
+                document.querySelector('.ham6').classList.toggle('ham3Click');
+            });
+            const button3 = document.querySelector('.toggler3');
+            button3.addEventListener('click', function () {
+                document.querySelector('.ham7').classList.toggle('ham7Click');
+                document.querySelector('.toggler3').classList.toggle('toggler3Click');
+                document.querySelector('.ham9').classList.toggle('ham9Click');
+            });
+            const button4 = document.querySelector('.toggler4');
+            button4.addEventListener('click', function () {
+                document.querySelector('.ham10').classList.toggle('ham7Click');
+                document.querySelector('.toggler4').classList.toggle('toggler4Click');
+                document.querySelector('.ham12').classList.toggle('ham9Click');
+            });
+        </script>
+
+</body>
+</html>
